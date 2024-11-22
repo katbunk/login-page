@@ -13,6 +13,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
    }
 
   .main-section{
@@ -38,8 +39,7 @@ main {
       font-weight: 500;
       border: none;
       background: transparent;
-    }
-  }
+      padding: 12px 24px;
 
       &.btn-primary {
         background-color: $primary-color;
@@ -49,6 +49,7 @@ main {
       &.btn-secondary {
         border: 1px solid $primary-color;
         color: $primary-color;
+      }
+    }
   }
-
 }
